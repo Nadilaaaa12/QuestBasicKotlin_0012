@@ -6,5 +6,13 @@ println("=== List ===")
 val readOnlyAbjad = listOf("A", "B", "C")
 println(readOnlyAbjad)
 
-// List
+// List Mutable
+val shape: MutableList<String> = mutableListOf("Circle", "Square", "Triangle")
+println(shape)
+
+// Menambahkan data ke dalam List Mutable
+shape.add("Circle")
+println(shape)
+
+
 }
