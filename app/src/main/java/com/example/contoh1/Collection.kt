@@ -14,5 +14,10 @@ println(shape)
 shape.add("Circle")
 println(shape)
 
+// Menghapus data dari List Mutable
+shape.remove("Triangle")
+println(shape)
+
+
 
 }
