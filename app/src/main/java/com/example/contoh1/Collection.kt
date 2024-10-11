@@ -22,6 +22,12 @@ println(shape)
     shape[0] = "Oval"
     print(shape)
 
+// List Read-Only
+    val shapesLocked: List<String> = shape
+    println(shapesLocked)
+}
+
+
 
 
 
