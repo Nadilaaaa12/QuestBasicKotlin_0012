@@ -20,15 +20,24 @@ println(shape)
 
 // Mengubah data di dalam List Mutable
     shape[0] = "Oval"
-    print(shape)
+    println()
+
 
 // List Read-Only
     val shapesLocked: List<String> = shape
     println(shapesLocked)
 }
 
-
-
-
-
+fun ContohSet() {
+    println()
+    println("===== Set =====")
 }
+
+
+
+
+
+
+
+
+
