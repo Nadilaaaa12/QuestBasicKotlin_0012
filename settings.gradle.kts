@@ -21,3 +21,5 @@ dependencyResolutionManagement {
 
 rootProject.name = "Contoh1"
 include(":app")
+include(":app")
+ 
